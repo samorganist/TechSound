@@ -12,7 +12,18 @@ body { padding-top: 0px; }
     color: #fff;
 }
 
-
+#myDiv
+{
+  height:500px;
+  width:140px;
+}
+#myDiv img
+{
+  max-width:100%;
+  max-height:100%;
+  margin:auto;
+  display:block;
+}
 
 
 
