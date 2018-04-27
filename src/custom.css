@@ -24,22 +24,23 @@ body { padding-top: 0px; }
 #headerr {
 
 
-background-image:url(../images/back2.jpg);
+background-image:url(../images/BG.jpg);
 background-size:cover;
 background-position:top;
 background-repeat: no-repeat;
 min-height: 300px;
-max-height: 400px;
 opacity: 0.95;
 }
-#headerr h2 {
-  color: #ff5252;
+#headerr h1 {
+  color: #fff;
   position:absolute;
   text-align: center;
   position: sticky;
-  padding-top:20px;
-
+  padding-top:250px;
 }
+
+
+
 /*Footer css*/
 .headerimage {
   background-color:#34495e;
@@ -66,21 +67,11 @@ padding-bottom:56.25%;
 position:relative;>
 height:0;
 }
+
 .map-responsive iframe {
 left:0;
 top:0;
 height:100%;
 width:100%;
 position:absolute;
-}
-
-#Servicesss {
-
-color: #30336b;
-
-}
-.row slideanim i{
-
-  color: #30336b;
-
 }
