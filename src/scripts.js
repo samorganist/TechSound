@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+  $('a[href^="#"]').click(function(){
+
+  var the_id = $(this).attr("href");
+
+      $('html, body').animate({
+
+          scrollTop:$(the_id).offset().top-200
+      },'slow');
+
+  return false;});
+
+
+
   $("#submitFormContact").click(function(){
     var req=0;
     var already=false;
