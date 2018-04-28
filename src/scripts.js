@@ -10,7 +10,9 @@ $(document).ready(function(){
       },'slow');
 
   return false;});
-
+  $('.stop-propagation').on('click', function (e) {
+      e.stopPropagation();
+  });
 
 
   $("#submitFormContact").click(function(){
